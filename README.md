@@ -20,7 +20,7 @@ The database includes four main entities:
 ## Technologies Used
 
 - SQL (MySQL syntax)  
-- Local SQL environment (e.g., MySQL Workbench, DB Browser for SQLite)
+- Local SQL environment
 
 ## Database Schema
 
