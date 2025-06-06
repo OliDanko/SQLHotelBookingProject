@@ -4,7 +4,7 @@ This project simulates a relational database for a hotel booking system, showcas
 🧩 Project Description
 The goal of this project is to create a mini hotel management system using SQL. It includes table creation, data insertion, and analytical queries across four main entities:
 
-Guests
+** Guests
 
 Rooms
 
