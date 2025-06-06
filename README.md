@@ -1,53 +1,67 @@
-Hotel Booking Database Project
-This project simulates a relational database for a hotel booking system, showcasing key SQL skills and database management concepts.
+# Hotel Booking Database Project
 
-🧩 Project Description
-The goal of this project is to create a mini hotel management system using SQL. It includes table creation, data insertion, and analytical queries across four main entities:
+This project simulates a **relational database** for a hotel booking system and demonstrates core **SQL skills** and **database management concepts** in action.
 
-** Guests
+## Project Overview
 
-Rooms
+The goal of this project is to build a **mini hotel management system** using SQL. It covers:
 
-Bookings
+- Table creation with proper relationships  
+- Sample data insertion for realistic scenarios  
+- Analytical queries for business insights  
 
-Payments
+The database includes four main entities:
 
-The database demonstrates the ability to:
+- `Guests` – personal information about hotel guests  
+- `Rooms` – details on room types and pricing  
+- `Bookings` – reservation records with check-in and check-out dates  
+- `Payments` – payment transactions for each booking  
 
-Create and connect tables with foreign keys
+## Technologies Used
 
-Insert sample data
+- SQL (MySQL syntax)  
+- Local SQL environment (e.g., MySQL Workbench, DB Browser for SQLite)
 
-Use SELECT, JOIN, GROUP BY, ORDER BY
+## Database Schema
 
-Apply aggregations, CASE WHEN, NULL handling, and window functions
+| Table     | Description                                |
+|-----------|--------------------------------------------|
+| Guests    | Guest names, date of birth, contact details |
+| Rooms     | Room number, type, price per night          |
+| Bookings  | Check-in/check-out dates, guest-room link   |
+| Payments  | Payment method, amount, payment status      |
 
-💾 Technologies Used
-SQL (MySQL syntax)
+Tables are connected via **primary and foreign keys**.
 
-Local development environment / SQL editor (e.g., MySQL Workbench, DB Browser for SQLite)
+## Sample Insights & Query Highlights
 
-🏗️ Database Structure
-Guests: Guest personal details
+This project includes SQL queries that answer real business questions:
 
-Rooms: Room type and pricing
+- Number of bookings per guest  
+- Guest age calculation from date of birth  
+- Average price per night by room type  
+- Stay duration and booking day trends  
+- Ranking of guests by total payments  
 
-Bookings: Reservations with check-in/check-out dates
+Techniques used:
 
-Payments: Payment information for each booking
+- SELECT, JOIN, GROUP BY, ORDER BY  
+- Aggregation (SUM, AVG, COUNT, etc.)  
+- CASE WHEN statements  
+- NULL handling  
+- Window functions (e.g., RANK, ROW_NUMBER)
 
-📊 Sample Insights (Query Highlights)
-Number of bookings per guest
+## File Contents
 
-Guest age calculation from date of birth
+- `hotel_schema.sql` – database schema (CREATE TABLE)  
+- `sample_data.sql` – sample data for all tables  
+- `analysis_queries.sql` – queries for insights and reporting  
+- `README.md` – this documentation
 
-Average price per night by room type
+## Use Case
 
-Stay duration and booking day trends
+This project is ideal for showcasing:
 
-Ranking of guests by total payments
-
-📁 File Contents
-SQL schema and data population
-
-Example queries for analysis and reporting
+- Relational database design  
+- SQL query building  
+- Analytical thinking in a hotel management context
