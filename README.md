@@ -7,7 +7,7 @@ This project simulates a **relational database** for a hotel booking system and 
 The goal of this project is to build a **mini hotel management system** using SQL. It covers:
 
 - Table creation with proper relationships  
-- Sample data insertion for realistic scenarios  
+- Sample data insertion for realistic scenarios 
 - Analytical queries for business insights 
 
 The database includes four main entities:
