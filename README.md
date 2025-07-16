@@ -8,7 +8,7 @@ The goal of this project is to build a **mini hotel management system** using SQ
 
 - Table creation with proper relationships  
 - Sample data insertion for realistic scenarios  
-- Analytical queries for business insights  
+- Analytical queries for business insights 
 
 The database includes four main entities:
 
